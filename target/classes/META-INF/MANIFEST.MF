@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ASUS
+Build-Jdk: 21.0.5
+Implementation-Title: estatebasic
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.vanphutin
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: https://projects.spring.io/spring-boot/estatebasic/
+Created-By: Maven Integration for Eclipse
+
