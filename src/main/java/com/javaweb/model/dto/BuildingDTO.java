@@ -1,87 +1,94 @@
 package com.javaweb.model.dto;
 
-
 public class BuildingDTO {
-	    private String name;
-	    private AddressDTO address;
-	    private Integer numberOfBasement;
-	    private Integer floorArea;
-	    private Long rentPrice;
-	    private Long staffId;
-	    private String level;
-	    
-	    
-		public BuildingDTO() {
-			super();
-		}
+	private String name;
+	private AddressDTO address;
+	private Integer numberOfBasement;
+	private Integer floorArea;
+	private Long rentPrice;
+	private Long staffid;
+	private String level;
+	private String staffManager;
 
-		public BuildingDTO(String name, AddressDTO address, Integer numberOfBasement, Integer floorArea, Long rentPrice,
-				Long staffId, String level) {
-			super();
-			this.name = name;
-			this.address = address;
-			this.numberOfBasement = numberOfBasement;
-			this.floorArea = floorArea;
-			this.rentPrice = rentPrice;
-			this.staffId = staffId;
-			this.level = level;
-		}
+	public BuildingDTO() {
+		super();
+	}
 
-		public String getName() {
-			return name;
-		}
+	public BuildingDTO(String name, AddressDTO address, Integer numberOfBasement, Integer floorArea, Long rentPrice,
+			Long staffid, String level, String staffManager) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.numberOfBasement = numberOfBasement;
+		this.floorArea = floorArea;
+		this.rentPrice = rentPrice;
+		this.staffid = staffid;
+		this.level = level;
+		this.staffManager = staffManager;
+	}
 
-		public void setName(String name) {
-			this.name = name;
-		}
+	public String getName() {
+		return name;
+	}
 
-		public AddressDTO getAddress() {
-			return address;
-		}
+	public void setName(String name) {
+		this.name = name;
+	}
 
-		public void setAddress(AddressDTO address) {
-			this.address = address;
-		}
+	public AddressDTO getAddress() {
+		return address;
+	}
 
-		public Integer getNumberOfBasement() {
-			return numberOfBasement;
-		}
+	public void setAddress(AddressDTO address) {
+		this.address = address;
+	}
 
-		public void setNumberOfBasement(Integer numberOfBasement) {
-			this.numberOfBasement = numberOfBasement;
-		}
+	public Integer getNumberOfBasement() {
+		return numberOfBasement;
+	}
 
-		public Integer getFloorArea() {
-			return floorArea;
-		}
+	public void setNumberOfBasement(Integer numberOfBasement) {
+		this.numberOfBasement = numberOfBasement;
+	}
 
-		public void setFloorArea(Integer floorArea) {
-			this.floorArea = floorArea;
-		}
+	public Integer getFloorArea() {
+		return floorArea;
+	}
 
-		public Long getRentPrice() {
-			return rentPrice;
-		}
+	public void setFloorArea(Integer floorArea) {
+		this.floorArea = floorArea;
+	}
 
-		public void setRentPrice(Long rentPrice) {
-			this.rentPrice = rentPrice;
-		}
+	public Long getRentPrice() {
+		return rentPrice;
+	}
 
-		public Long getStaffId() {
-			return staffId;
-		}
+	public void setRentPrice(Long rentPrice) {
+		this.rentPrice = rentPrice;
+	}
 
-		public void setStaffId(Long staffId) {
-			this.staffId = staffId;
-		}
+	public Long getStaffid() {
+		return staffid;
+	}
 
-		public String getLevel() {
-			return level;
-		}
+	public void setStaffid(Long staffid) {
+		this.staffid = staffid;
+	}
 
-		public void setLevel(String level) {
-			this.level = level;
-		}
-	    
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
+	}
+
+	public String getStaffManager() {
+		return staffManager;
+	}
+
+	public void setStaffManager(String staffManager) {
+		this.staffManager = staffManager;
+	}
 
 }

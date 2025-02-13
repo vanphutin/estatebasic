@@ -23,12 +23,12 @@ public class BuildingController {
 			@RequestParam(value = "numberOfBasement", required = false) Integer numberOfBasement,
 			@RequestParam(value = "floorArea", required = false) Integer floorArea,
 			@RequestParam(value = "rentPrice", required = false) Long rentPrice,
-			@RequestParam(value = "staffId", required = false) Long staffId,
+			@RequestParam(value = "staffid", required = false) Long staffid,
 			@RequestParam(value = "level", required = false) String level,
 			@RequestParam(value = "street", required = false) String street,
 			@RequestParam(value = "districtId", required = false) Integer districtId,
 			@RequestParam(value = "ward", required = false) String ward) {
-		return buildingService.findAll(street, districtId, ward, name, numberOfBasement, floorArea, rentPrice, staffId,
+		return buildingService.findAll(street, districtId, ward, name, numberOfBasement, floorArea, rentPrice, staffid,
 				level);
 	}
 }
